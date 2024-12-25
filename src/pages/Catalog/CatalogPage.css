@@ -1,0 +1,9 @@
+.catalog-page {
+    display: flex;
+}
+
+.catalog-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: var(--background-color);
+}

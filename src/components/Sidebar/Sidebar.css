@@ -1,0 +1,120 @@
+.sidebar {
+    border-width: 0.5px 0.5px 0.5px 0px;
+    border-style: solid;
+    border-color: #ABABAB;
+    margin-top: 197px;
+    border-radius: 0 10px 10px 0;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 0px;
+    background-color: var(--primary-color);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-image {
+    width: 41.22;
+    height: 48.22px;
+}
+
+.logo-text {
+    margin-left: 10.11px;
+    width: 127.97px;
+    height: 26.86px;
+    color: #0b0b0f;
+    font-weight: bold;
+}
+
+.sidebar-menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 0px 0px;
+    gap: 15px;
+    color: #ABABAB;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-menu-item:hover {
+    background-color: var(--light-hover);
+    border-radius: 5px;
+}
+
+.sidebar-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0;
+    background-color: var(--light-bg);
+}
+
+.user-info {
+    text-align: center;
+    font-size: 12px;
+    color: var(--secondary-text);
+    margin-bottom: 10px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-contact .user-id {
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.user-name {
+    color: #570A7F;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+}
+
+.logout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--light-hover);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}

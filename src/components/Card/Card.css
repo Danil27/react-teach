@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 16px 0;
+}
+
+.card-title {
+    font-size: var(--heading-font-size);
+    margin-bottom: 8px;
+    color: var(--primary-color);
+}
+
+.card-description {
+    font-size: var(--body-font-size);
+    color: var(--text-color);
+    margin-bottom: 16px;
+}
